@@ -1,0 +1,106 @@
+{
+  "common": {
+    "appName": "SweetList"
+  },
+  "lang": {
+    "uk": "Українська",
+    "en": "English",
+    "label": "Language"
+  },
+  "auth": {
+    "title": "Your sweet space",
+    "subtitle": "Save recipes and create together.",
+    "tabs": {
+      "login": "Sign in",
+      "register": "Sign up"
+    },
+    "fields": {
+      "name": "Name",
+      "email": "Email",
+      "password": "Password",
+      "confirmPassword": "Confirm password",
+      "namePlaceholder": "Olena Koval",
+      "emailPlaceholder": "olena@example.com"
+    },
+    "submit": {
+      "login": "Sign in",
+      "register": "Create account"
+    },
+    "showPassword": "Show password",
+    "hidePassword": "Hide password",
+    "invalidCredentials": "Invalid email or password.",
+    "panel": {
+      "line1": "Fewer lists.",
+      "line2": "More sweetness.",
+      "text": "Favourite recipes, community inspiration and shopping for your next dessert — all in one place.",
+      "footer": "Made for those who create sweets."
+    },
+    "footer": "Your recipes — your space.",
+    "signOut": "Sign out"
+  },
+  "validation": {
+    "required": "This field is required",
+    "email": "Enter a valid email address",
+    "nameMax": "At most 100 characters",
+    "passwordMin": "Password must be at least 4 characters",
+    "passwordMax": "Password must be at most 72 characters",
+    "passwordsMismatch": "Passwords do not match. Repeat the password."
+  },
+  "errors": {
+    "EMAIL_TAKEN": "An account with this email already exists",
+    "USERNAME_TAKEN": "This username is already taken",
+    "NETWORK_ERROR": "Can’t reach the server. Please try again.",
+    "UNKNOWN": "Something went wrong. Please try again."
+  },
+  "nav": {
+    "home": "Home",
+    "shopping": "Shopping",
+    "recipes": "My recipes",
+    "community": "Community",
+    "profile": "Profile",
+    "main": "Main navigation"
+  },
+  "sync": {
+    "cloud": "Synced to the cloud",
+    "local": "On this device only"
+  },
+  "home": {
+    "breadcrumb": "My space / Home",
+    "greeting": "Welcome, {{name}}!",
+    "greetingSub": "What sweet thing shall we make today?",
+    "searchPlaceholder": "Find a recipe",
+    "sectionTitle": "My recipes",
+    "recipesCount_one": "{{count}} recipe",
+    "recipesCount_other": "{{count}} recipes",
+    "addRecipe": "+ Add recipe",
+    "addRecipeShort": "Add recipe",
+    "all": "All",
+    "inviteTitle": "Room for a new idea",
+    "inviteText": "Save your own recipe — from the first note to a favourite dessert.",
+    "emptyTitle": "Nothing here yet",
+    "emptySearch": "Nothing found. Try another search.",
+    "loadError": "Couldn’t load recipes.",
+    "retry": "Try again",
+    "profileRole": "Confectioner",
+    "noteTitle": "Recipes always at hand",
+    "noteText": "Keep recipes in the cloud and open them on any device."
+  },
+  "recipe": {
+    "view": "View",
+    "servings": {
+      "portions_one": "{{count}} portion",
+      "portions_other": "{{count}} portions",
+      "pieces_one": "{{count}} piece",
+      "pieces_other": "{{count}} pieces"
+    }
+  },
+  "time": {
+    "hours": "{{count}} h",
+    "minutes": "{{count}} min"
+  },
+  "comingSoon": {
+    "title": "Coming soon",
+    "text": "This section is still in development.",
+    "back": "Back to home"
+  }
+}

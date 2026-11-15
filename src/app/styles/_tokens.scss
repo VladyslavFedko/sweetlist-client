@@ -1,0 +1,56 @@
+// Design tokens from Figma ("SweetList · Foundations"). Light is the default,
+// dark applies via [data-theme='dark'] or, when the user theme is "system", the OS setting.
+// Values marked (assumed) were not exposed by the dark frames and should be checked in Figma.
+
+@mixin light {
+  --accent-primary: #ff8a1f;
+  --accent-tint: #ffe9d6;
+  --accent-pressed: #e67300;
+  --background-warm: #fff8f2;
+  --background-canvas: #ffffff;
+  --surface-card: #ffffff;
+  --surface-elevated: #ffffff;
+  --text-primary: #1f1f1f;
+  --text-secondary: #7a7a7a;
+  --text-on-accent: #1f1f1f;
+  --border-subtle: #f0e6dc;
+  --status-error: #c14535;
+  --welcome-from: #fff3e5;
+  --welcome-to: #ffd9b4;
+  --welcome-text: #6a3b21;
+}
+
+@mixin dark {
+  --accent-primary: #ff9a3d;
+  --accent-tint: #3a291b;
+  --accent-pressed: #ffb066; // (assumed)
+  --background-warm: #141414;
+  --background-canvas: #1f1f1f; // (assumed)
+  --surface-card: #1f1f1f;
+  --surface-elevated: #2a2a2a;
+  --text-primary: #f5f5f5;
+  --text-secondary: #a8a8a8;
+  --text-on-accent: #1f1f1f;
+  --border-subtle: #2a2a2a;
+  --status-error: #ff7b6b; // (assumed)
+  --welcome-from: #2a1f16; // (assumed)
+  --welcome-to: #3a291b; // (assumed)
+  --welcome-text: #e8c9b0; // (assumed)
+}
+
+:root {
+  @include light;
+  color-scheme: light;
+}
+
+:root[data-theme='dark'] {
+  @include dark;
+  color-scheme: dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) {
+    @include dark;
+    color-scheme: dark;
+  }
+}

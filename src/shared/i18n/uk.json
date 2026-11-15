@@ -1,0 +1,112 @@
+{
+  "common": {
+    "appName": "SweetList"
+  },
+  "lang": {
+    "uk": "Українська",
+    "en": "English",
+    "label": "Мова"
+  },
+  "auth": {
+    "title": "Ваш солодкий простір",
+    "subtitle": "Зберігайте рецепти й творіть разом.",
+    "tabs": {
+      "login": "Вхід",
+      "register": "Реєстрація"
+    },
+    "fields": {
+      "name": "Ім’я",
+      "email": "Електронна пошта",
+      "password": "Пароль",
+      "confirmPassword": "Підтвердіть пароль",
+      "namePlaceholder": "Олена Коваль",
+      "emailPlaceholder": "olena@example.com"
+    },
+    "submit": {
+      "login": "Увійти",
+      "register": "Створити акаунт"
+    },
+    "showPassword": "Показати пароль",
+    "hidePassword": "Сховати пароль",
+    "invalidCredentials": "Невірна пошта або пароль.",
+    "panel": {
+      "line1": "Менше списків.",
+      "line2": "Більше солодкого.",
+      "text": "Улюблені рецепти, натхнення спільноти й покупки для наступного десерту — в одному місці.",
+      "footer": "Створено для тих, хто творить солодке."
+    },
+    "footer": "Ваші рецепти — ваш простір.",
+    "signOut": "Вийти"
+  },
+  "validation": {
+    "required": "Це поле обов’язкове",
+    "email": "Введіть коректну електронну пошту",
+    "nameMax": "Не більше 100 символів",
+    "passwordMin": "Пароль має містити щонайменше 4 символів",
+    "passwordMax": "Пароль має містити не більше 72 символів",
+    "passwordsMismatch": "Паролі не збігаються. Повторіть пароль."
+  },
+  "errors": {
+    "EMAIL_TAKEN": "Акаунт з такою поштою вже існує",
+    "USERNAME_TAKEN": "Це ім’я користувача вже зайняте",
+    "NETWORK_ERROR": "Немає зв’язку із сервером. Спробуйте ще раз.",
+    "UNKNOWN": "Щось пішло не так. Спробуйте ще раз."
+  },
+  "nav": {
+    "home": "Головна",
+    "shopping": "Покупки",
+    "recipes": "Мої рецепти",
+    "community": "Спільнота",
+    "profile": "Профіль",
+    "main": "Головна навігація"
+  },
+  "sync": {
+    "cloud": "Синхронізовано з хмарою",
+    "local": "Лише на цьому пристрої"
+  },
+  "home": {
+    "breadcrumb": "Мій простір / Головна",
+    "greeting": "Вітаємо, {{name}}!",
+    "greetingSub": "Що солодкого приготуємо сьогодні?",
+    "searchPlaceholder": "Знайти рецепт",
+    "sectionTitle": "Мої рецепти",
+    "recipesCount_one": "{{count}} рецепт",
+    "recipesCount_few": "{{count}} рецепти",
+    "recipesCount_many": "{{count}} рецептів",
+    "recipesCount_other": "{{count}} рецепту",
+    "addRecipe": "+ Додати рецепт",
+    "addRecipeShort": "Додати рецепт",
+    "all": "Усі",
+    "inviteTitle": "Місце для нової ідеї",
+    "inviteText": "Збережіть власний рецепт — від першої нотатки до улюбленого десерту.",
+    "emptyTitle": "Тут поки порожньо",
+    "emptySearch": "Нічого не знайдено. Спробуйте інший запит.",
+    "loadError": "Не вдалося завантажити рецепти.",
+    "retry": "Спробувати ще раз",
+    "profileRole": "Кондитерка",
+    "noteTitle": "Рецепти завжди поруч",
+    "noteText": "Зберігайте рецепти в хмарі та відкривайте їх на будь-якому пристрої."
+  },
+  "recipe": {
+    "view": "Переглянути",
+    "servings": {
+      "portions_one": "{{count}} порція",
+      "portions_few": "{{count}} порції",
+      "portions_many": "{{count}} порцій",
+      "portions_other": "{{count}} порції",
+      "pieces_one": "{{count}} штука",
+      "pieces_few": "{{count}} штуки",
+      "pieces_many": "{{count}} штук",
+      "pieces_other": "{{count}} штуки"
+    }
+  },
+  "time": {
+    "hours": "{{count}} год",
+    "minutes": "{{count}} хв"
+  },
+  "comingSoon": {
+    "title": "Скоро тут з’явиться",
+    "text": "Цей розділ ще в розробці.",
+    "back": "На головну"
+  }
+}
